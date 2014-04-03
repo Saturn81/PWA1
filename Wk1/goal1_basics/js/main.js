@@ -1,5 +1,5 @@
 
-console.log("Hello There");
+
 
 /*
      Name:
@@ -80,7 +80,14 @@ var a=b=c=d=10;
 // string (definition, concatenation, escape character)
 console.log('------ strings ----------');
 
+
+var  name= "James Bond";
+console.log(name);
+
     //basic string
+
+var testString= "He's in PWA1";
+console.log("Example 1: ",testString);
 
 
     //string w/ escape characters " \ "
@@ -96,19 +103,45 @@ console.log('------ strings ----------');
 // numbers (definition, concatenation +, math, numbers & strings)
 console.log('------ numbers ----------');
 
+//var x = 123e5;
+//var z = 123e-5;
+
+//console.log(x);
+//console.log(z);
+
     // arithmetic operators:  +, -, /, *, % (modulo)
 
 
     //basic math
-
+var counter =10;
+console.log("basic math: ", counter + 1);
 
     //quick operations with "assignment operator" +=, -=, *=, /=, %=
     //one example below, can show more examples with other assignment operators
+var num1=10;
+var num2=5;
+num1 += num2;
+
+console.log("+= ", num1);
+
 
 
     //increment or decrement numbers by 1 with ++ or --
 
+var myNum =5;
+console.log("myNum = ", myNum);
+
+myNum++;
+console.log("myNum = ", myNum);
+
+
     //this decrements right before it is being used
+
+var num=10;
+
+--num;
+
+console.log ("--counter: ", num);
 
     //this decrements after it is used
 
@@ -118,8 +151,15 @@ console.log('------ numbers ----------');
 
     //add a number to a string is always a string
 
+var myStr = "6" +2;
+console.log("Number +Strings: ", myStr);
+
+
 
     //other math operations will result in a number
+
+var myStr = "6" / 2;
+console.log("Number +Strings: ", myStr);
 
 
     //order of operations: ( ), *, /, +, -
