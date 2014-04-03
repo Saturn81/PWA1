@@ -11,8 +11,8 @@
     var playerOneName="Spiderman";      //players names
     var playerTwoName="Batman";         //players names
 
-    var playerOneDamage= 30;      //players damage
-    var playerTwoDamage=30;       //players damage
+    var playerOneDamage= 20;      //players damage
+    var playerTwoDamage=20;       //players damage
 
     var playerOneHealth=100;       //players health
     var playerTwoHealth=100;       //players health
@@ -27,7 +27,18 @@ alert(playerOneName+":"+playerOneHealth+" *START* "+playerTwoName+":"+playerTwoH
 
 
     for (var i=0; i <10; i++){
-        console.log(i);
+
+        var minDamage1=playerOneDamage *.5;
+        var minDamage2=playerTwoDamage *.5;
+        var f1=Math.floor(Math.random()*(playerOneDamage-minDamage1)+minDamage1);
+        var f2=Math.floor(Math.random()*(playerTwoDamage-minDamage2)+minDamage2);
+
+        playerOneHealth-=f1;
+        playerTwoHealth-=f2;
+
+        console.log(playerOneName+":"+playerOneHealth +" "+playerTwoName+":"+playerTwoHealth);
+
+
     };
 
 
@@ -36,7 +47,7 @@ alert(playerOneName+":"+playerOneHealth+" *START* "+playerTwoName+":"+playerTwoH
 function winnerCheck(){
     //code will go here
 };
-
+console.log("Begins")
 
 
 fight();
