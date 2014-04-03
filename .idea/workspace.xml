@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a00b7fa3-855d-4eed-99d0-ab6c85adf78f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wk1/goal1_basics/js/main.js" afterPath="$PROJECT_DIR$/Wk1/goal1_basics/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wk1/goal1_basics/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="18" selection-start="3323" selection-end="3323" vertical-scroll-proportion="0.6581197" vertical-offset="2169" max-vertical-offset="8385">
+            <state line="408" column="38" selection-start="10036" selection-end="10036" vertical-scroll-proportion="1.8974359" vertical-offset="5454" max-vertical-offset="9015">
               <folding />
             </state>
           </provider>
@@ -265,7 +264,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal1_basics/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="18" selection-start="3323" selection-end="3323" vertical-scroll-proportion="0.6581197" vertical-offset="2169" max-vertical-offset="8385">
+        <state line="408" column="38" selection-start="10036" selection-end="10036" vertical-scroll-proportion="1.8974359" vertical-offset="5454" max-vertical-offset="9015">
           <folding />
         </state>
       </provider>

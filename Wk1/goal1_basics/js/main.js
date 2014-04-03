@@ -194,7 +194,7 @@ console.log('------ arrays ----------');
 
     //arrays can hold any data type
 
-
+  console.log("index 0 ", myArr[0-3]);
 
  /*******************************************
 
@@ -204,6 +204,10 @@ console.log('------ arrays ----------');
     2.  console.log the sum of all the numbers in an array
 
  ********************************************/
+
+var specialArray=[10,50,100,200];
+
+console.log("answer is", (specialArray[0]) + (specialArray[1]) + (specialArray[2]) + (specialArray[3]));
 
 
 
@@ -221,6 +225,13 @@ console.log('------ arrays ----------');
     3. output array items using string concatenation
 
  ********************************************/
+var myArray = new Array();
+myArray[0]="bassball";
+myArray[1]="football";
+myArray[2]="basketball";
+
+console.log(myArray[0]+", "+myArray[1]+ ", "+myArray[2]+ " are sports on t.v.");
+
 
 
  // conditionals: (definition, indexing, math, if, if-else, if-else if, ternary)
@@ -352,10 +363,15 @@ console.log('------ conditionals ----------');
  GOAL
     1. learn if - else
  ********************************************/
+var weather = "Cloudy"
 
+if (weather==="Sunny"){
+    bobsMood='happy';
+}else{
+    boobsMood='sad';
+}
 
-
-
+console.log("Else if homework ", boobsMood);
 /*******************************************
  STUDENT ACTIVITY 4:
 
@@ -372,8 +388,34 @@ console.log('------ conditionals ----------');
     3.  console.log the results after each conditional
  ********************************************/
 
+var weather ="cloudy";
+var waves= 10;
+
+if (weather==="Sunny"){
+    if (waves === 10){
+        bobsMood= "pumped";
+    }else if ((waves <=9) && (waves >= 5)){
+        bobsMood = "mellow";
+    }else{
+        bobsMood ="bummed"
+    }
 
 
+
+}else if (weather == "overcast"){
+     if ((waves <10) && (waves >= 7)){
+        mood ="jackedUp"
+        }else if ((waves <=6) && (waves >3)){
+            bobsMood="totally bummed;"
+     }else{
+        bobsMood="not happy";
+     }
+}else{
+    bobsMood="sad";
+}
+
+
+    console.log("Else If, activity 4, Bob;s Mood is in fact ",bobsMood);
 
 /*
     BREAKING A TERNARY CONDITIONAL DOWN TO INDIVIDUAL PIECES
