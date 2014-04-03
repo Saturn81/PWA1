@@ -11,11 +11,39 @@
     var playerOneName="Spiderman";      //players names
     var playerTwoName="Batman";         //players names
 
-    var player1Damage= 30;      //players damage
-    var plater2Damage=30;       //players damage
+    var playerOneDamage= 30;      //players damage
+    var playerTwoDamage=30;       //players damage
 
-    var player1Health=100;       //players health
-    var plater2Health=100;       //players health
+    var playerOneHealth=100;       //players health
+    var playerTwoHealth=100;       //players health
+
+    var round =1;                 //variable to show section of time.
+
+function fight(){
+
+
+alert(playerOneName+":"+playerOneHealth+" *START* "+playerTwoName+":"+playerTwoHealth);
+
+
+
+    for (var i=0; i <10; i++){
+        console.log(i);
+    };
+
+
+};
+
+function winnerCheck(){
+    //code will go here
+};
+
+
+
+fight();
+
+
+
+
 
 })();
 
