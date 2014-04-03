@@ -17,7 +17,7 @@
     var playerOneHealth=100;       //players health
     var playerTwoHealth=100;       //players health
 
-    var round =1;                 //variable to show section of time.
+    var round =0;                 //variable to show section of time.
 
 function fight(){
 
@@ -38,16 +38,40 @@ alert(playerOneName+":"+playerOneHealth+" *START* "+playerTwoName+":"+playerTwoH
 
         console.log(playerOneName+":"+playerOneHealth +" "+playerTwoName+":"+playerTwoHealth);
 
+        var result= winnerCheck();
+        console.log(result);
 
+        if (result ==="no winner"){
+            round++;
+            alert(playerOneName+":"+playerOneHealth+"  -Round "+round+ " Over-  "+ playerTwoName+":"+playerTwoHealth);
+        }else{
+            alert(result);
+            break;
+
+        }
     };
 
 
 };
 
 function winnerCheck(){
-    //code will go here
+
+    console.log("in winnerCheck Function");
+   var result="no winner";
+
+    if (playerOneHealth<=0 && playerTwoHealth<=0){
+    result="Both are Dead";
+    }else if(playerOneHealth<=0){
+    result=playerTwoName+" Wins!"
+    }else if(playerTwoHealth<=0){
+    result=playerOne+" Wins!"
+    };
+
+
+    return result;
+    console.log(result);
 };
-console.log("Begins")
+
 
 
 fight();
