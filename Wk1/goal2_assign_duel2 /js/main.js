@@ -1,28 +1,34 @@
 /*    By: Jeremy Suika
       Date: 4/3/2014
-        Assignment: Goal1: Assignment Duel 1
+        Assignment: Goal2: Assignment Duel 2
 
     */
 
 (function(){
 
-    console.log("FIGHT!")    //title to signify start
+
+    var warrior1 =["Spiderman",25,100];
+    var warrior2=["Batman",20,100];
+
+console.log(warrior1[0]);
+
+    console.log("FIGHT!");    //title to signify start
 
     var playerOneName="Spiderman";      //players names
     var playerTwoName="Batman";         //players names
 
-    var playerOneDamage= 20;      //players damage
-    var playerTwoDamage=20;       //players damage
+   var playerOneDamage= 20;      //players damage
+   var playerTwoDamage=20;       //players damage
 
-    var playerOneHealth=100;       //players health
-    var playerTwoHealth=100;       //players health
+   var playerOneHealth=100;       //players health
+   var playerTwoHealth=100;       //players health
 
     var round =0;                 //variable to show start of round
 
 function fight(){
 
 
-alert(playerOneName+":"+playerOneHealth+" *START* "+playerTwoName+":"+playerTwoHealth);   //alert to show the display of the Player and their health
+alert(warrior1[0]+":"+warrior1[2]+" *START* "+warrior2[0]+":"+warrior2[2]);   //alert to show the display of the Player and their health
 
 
 
