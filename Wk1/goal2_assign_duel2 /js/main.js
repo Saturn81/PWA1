@@ -25,10 +25,13 @@ alert(warrior1[0]+":"+warrior1[2]+" *START* "+warrior2[0]+":"+warrior2[2]);   //
 
     for (var i=0; i <10; i++){   //to change the number of rounds, not to go over 10, for the loop
 
-        var minDamage1=warrior1[1] *.5;                             //to create a random number, to be deducted or subtracted
-        var minDamage2=warrior2[1] *.5;
-        var f1=Math.floor(Math.random()*(warrior1[1]-minDamage1)+minDamage1);
-        var f2=Math.floor(Math.random()*(warrior2[1]-minDamage2)+minDamage2);
+        var damages =["hit1","hit2"];
+
+
+        damages[0]=warrior1[1] *.5;                             //to create a random number, to be deducted or subtracted
+        damages[1]=warrior2[1] *.5;
+        var f1=Math.floor(Math.random()*(warrior1[1]-damages[0])+damages[0]);
+        var f2=Math.floor(Math.random()*(warrior2[1]-damages[1])+damages[1]);
 
         warrior1[2]-=f1;    //this is how damage gets deducted for player 1
         warrior2[2]-=f2;    //this is how damage gets deducted for player 2
