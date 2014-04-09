@@ -1,7 +1,6 @@
 /*
 	PWA1 Goal 3
 	JavaScript Debugging & Scope
-*/
 
 
 (function(){
@@ -71,7 +70,7 @@ console.log('------ Recap from the previous lecture ----------');
 */
 
 console.log('------ Debugging ----------');
-
+/*
 /***********************
      For each of the examples below you will have to un-comment the code so the
      error in the code displays in the console.log.  You will want to determine
@@ -91,35 +90,35 @@ console.log('------ Debugging ----------');
 
     //Example2:
 	//string w/ escape charaters and mixed single/double quotes
-	var phrase = "he\'s in " + ' "PWA1" ';
-	console.log("phase 4: ", phrase);
+	//var phrase = "he\'s in " + ' "PWA1" ';
+	//console.log("phase 4: ", phrase);
 
 
-
-    /*
+/*
     //Example3:
 	//nested conditional statement
-	if (a === a){    //1st IF statement
+	if ("a" === "a"){    //1st IF statement
 		//execute this block of code if a is equal to a
 		
-		if (b === b){  //nested IF statement : 2nd IF statement
+		if ("b" === "b"){  //nested IF statement : 2nd IF statement
    			//execute this block of code if b is equal to b
    			console.log("In Nested if-else / b === b: True");
 		}else{       //nested ELSE statement
 			//execute block of code if the matching “IF” statement returns false
 		};
 
-	}else
+	}else{
 		//execute this block of code if the 1st “IF” statement returns false
-		console.log("nested conditional: 1st IF returned false);
+		console.log("nested conditional: 1st IF returned false");
 	};
+*/
 
-     /*
+
     //Example4:
 	var value1 = 'Sunny';
 	var value2 = 10;
 	
-	var mood = function(weather, waves)
+	var mood = function(weather, waves){;
 
 		if (weather = "Sunny"){
 			if (waves === 10){
@@ -131,11 +130,11 @@ console.log('------ Debugging ----------');
 			};	
 	
 		}else if (weather === 'Overcast'){
-			if ((wave <= 10) !! (waves >= 7)){
+			if ((wave <= 10) || (waves >= 7)){
 				Mood = "JACKED UP";
 			}else if ((waves <= 6) && (waves >= 3)){
 				Mood = 'totally bummed';			
-			)else{
+            }else{
 				Mood = 'not happy';
 			};
 
@@ -143,13 +142,13 @@ console.log('------ Debugging ----------');
 			Mood = 'sad'
 		};
 
-		return Moood;
+		return Mood;
 	};
 
 	var moodType = mood(value1, value2);
 	console.log('mood: ', moodType);
 
-
+/*
     //Example5:
 
     var myNums = [1, 2, 3, 4, 5];
@@ -304,4 +303,4 @@ console.log("---------- Scope & Context ----------------");
                   immediate lexical scope creates a closure.
     */
 
-})(); // end wrapper
+//})(); // end wrapper
