@@ -113,7 +113,7 @@ console.log('------ Debugging ----------');
 	};
 */
 
-
+/*
     //Example4:
 	var value1 = 'Sunny';
 	var value2 = 10;
@@ -148,13 +148,13 @@ console.log('------ Debugging ----------');
 	var moodType = mood(value1, value2);
 	console.log('mood: ', moodType);
 
-/*
+*/
     //Example5:
 
     var myNums = [1, 2, 3, 4, 5];
     console.log(myNums);
 
-    for (var i=10, j=myNums.length; i < j; i++){
+    for (var i=1, j=myNums.length; i < j; i++){
 
         console.log("i: " + i);
         console.log("j: " + j);
@@ -165,8 +165,11 @@ console.log('------ Debugging ----------');
 
         continue;
         console.log('What is at index ' + i + ' = ', myNums[i] );
+
+
     };
 
+/*
 *****************/
 
 /*
@@ -191,7 +194,7 @@ console.log('------ Debugging ----------');
   			//Handle errors here
   		}
 */
-    console.log('------ Try Catch ----------');
+ //   console.log('------ Try Catch ----------');
 
 
 /*
@@ -256,12 +259,24 @@ console.log('------ Debugging ----------');
 	}                
 		//you can use shouldBeLocalVar outside of the function
 
-*/
+
 console.log("---------- Scope & Context ----------------");
 
+var myctr=3
 
+var myCounter1=function(newct){
 
+    var myctr= newct +10;
 
+    console.log("function:",myctr);
+
+};
+
+myCounter1(5);
+
+console.log("function:",myctr);
+
+/*
 
 /*
 	===================================================================
@@ -273,6 +288,30 @@ console.log("---------- Scope & Context ----------------");
 
     console.log("---------- Closure ----------------");
 
+var fname="James";
+
+var nameFN=function(var1){
+    var firstName=var1;
+    var lastName="Bond";
+    var name=firstName+" "+lastName;
+
+    var closureFN=function(){
+
+
+
+
+    console.log("first and last name =", name);
+    }
+    return closureFN;
+
+}
+var fullName=nameFN(fname);
+console.log("retuened full name: = ",fullName);
+console.log("var fname = ",fname);
+//console.log("first name= ",firstName);
+//console.log("last name= ",lastName);
+
+fullName();
 
 
     /*
