@@ -29,8 +29,8 @@
 console.log('------Objects ----------');
 
 //{KEY : Value} pairings,
-
-
+    person= {"name":"bond","age":35,"secretAgent":true};
+    person= {name:"bond",age:35,secretAgent:true};
 
 /* accessing object properties
      - below are 3 ways you can access the property information in an object
@@ -41,12 +41,20 @@ console.log('------Objects ----------');
      - also keep in mind that since the keys can be strings, you could access the keys using string variables
  */
 
-
+var personAge='age';
+    console.log(person.name,person[personAge],person["secretAgent"]);
 // setter
 
-
+person["age"]="40";
+person.name="JamesBond";
+console.log(person);
 
 //nested objects
+person ={birthday:{month:02,day:12},name:"bond"};
+    console.log(person);
+
+
+
 
 
 
@@ -121,6 +129,27 @@ STUDENT ACTIVITY 1:
  ----------------------------------------------------------------------------- */
 
 console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
+
+var schoolInfo ={
+    schoolName:"Full Sail",
+    address:"123 University Ave",
+    studentCount:16000,
+    students:[
+        {name:"Peter Parker",GPA:3.2,classes:["PWA","PWA"]},
+        {name:"Bruce Banner",GPA:1.2},
+        {name:"Albert Brooks",GPA:4.1}
+    ]
+}
+
+console.log(schoolInfo.schoolName);
+console.log(schoolInfo["schoolName"]);
+
+var newCnt="studentCount";
+    console.log(obj1[newCnt]);
+
+
+
+
 
 // this is integrating multiple data types - object with an array of objects
 

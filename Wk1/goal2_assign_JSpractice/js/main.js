@@ -1,3 +1,15 @@
+/* Jeremy Suika
+    April 9 2014
+    JavaScript Practice
+
+*/
+
+
+
+
+
+
+
 // self-executing function
 (function(){
 
@@ -44,41 +56,45 @@
 
     console.log('------ Goal2: Assignment: JavaScript Practice ----------');
 
-    console.log("1. avg of an array of numbers");
-    var avgNumbers = function(arr){
+    console.log("1. avg of an array of numbers");   //The title of #1 Problem for the console.
 
-
+var avgNumbers=function(myarray){
+    var avg=0;
+    for(var i= 0, j=myarray,lenght; i<j; i++){
+        avg += myarray[i];
     };
+    avg /= myarray,lenght;
+    return avg;
 
-    console.log('avg number = ', avgNumbers([1,2,3,4,5]));
+};
+
+console.log("avg number = ",avgNumbers([1,2,3,4,5,6,7,8,9,10]));
+
+
+
+    //--------------------------------------------------------
+
+    console.log("2. concat first and last name");   //the title of the 2nd exercise
+
+
+
+
+var fullName=function(firstName,LastName){    //function titled FullName, with two parameters
+    return firstName+ " "+LastName;           //returning it, allows me to use it outside the function
+
+};
+
+    console.log(fullName("Jeremy","Suika"));  //the display that prints to the console, a random name, my own;
 
 
 
 
 
     //--------------------------------------------------------
-
-    console.log("2. concat first and last name");
-
-    var fullName=names("Jeremy","Suika");
-
-    function names (firstName,lastName){
-        var names =("Jeremy","Suika")
-        return names;
-
-    }
-
-    names(Jeremy,"Suika")
-
-
-    console.log("hello thre");
-
-
-    //--------------------------------------------------------
-    //console.log("3. word count");
+    console.log("3. word count");
     var ipsum = "this is test text that is being used as input to a function"
 
-        //PUT FUNCTION HERE
+    var
 
     console.log("HELLO THERE");
 
