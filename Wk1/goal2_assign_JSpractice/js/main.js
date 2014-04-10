@@ -95,7 +95,7 @@ var fullName=function(firstName,LastName){    //function titled FullName, with t
     var ipsum = "this is a test text that is being used as input to a function to you by Jeremy"
 
     var wordCount=function(words){
-        return words.split(' ').length;
+        return words.length;
     };
 
     console.log(wordCount(ipsum));
@@ -103,15 +103,32 @@ var fullName=function(firstName,LastName){    //function titled FullName, with t
     //--------------------------------------------------------
     console.log("4. sentence char count");
 
-        //PUT FUNCTION HERE
+        var charCount=function(words){
+            return words.length;
+        };
 
     console.log(charCount(ipsum));
 
-    //--------------------------------------------------------
+    //--------------------  ------------------------------------
     console.log("5. how many vowels in a word");
 
-        //PUT FUNCTION HERE
+  var vowelsInWord =function(word){
+    var vowels =["a","e","i","o","u"];
 
+    count = 0;
+
+    this.word=word.toLowerCase().split('');
+
+    for(var i= 0, j=this.word.length; i<j; i++) {
+        for(var ii= 0,jj=vowels.length; ii<jj; ii++){
+            if(this.word[i]===vowels[ii]){
+                count++;
+            };
+        };
+    };
+    return count;
+
+  };
     console.log(vowelsInWord('JavaScript'));
 
     //--------------------------------------------------------
@@ -122,4 +139,4 @@ var fullName=function(firstName,LastName){    //function titled FullName, with t
     console.log(findNum([31,22,4,67,83,6,5,4]));
     console.log(findNum([31,22,4,67,83,6,5,4], false));
 
-})();
+})();          // })();
