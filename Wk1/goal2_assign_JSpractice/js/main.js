@@ -1,16 +1,4 @@
-/* Jeremy Suika
-    April 9 2014
-    JavaScript Practice
-
-*/
-
-
-
-
-
-
-
-// self-executing function
+// self-executing function, created by Jeremy Suika, April 9 2014
 (function(){
 
     /*******************************************
@@ -58,85 +46,102 @@
 
     console.log("1. avg of an array of numbers");   //The title of #1 Problem for the console.
 
-var avgNumbers=function(myarray){
-    var avg=0;
-    for(var i= 0, j=myarray.length; i<j; i++){
-        avg += myarray[i];
+    var avgNumbers=function(myarray){     // paratimter used to find average number.
+        var avg=0;
+        for(var i= 0, j=myarray.length; i<j; i++){
+            avg += myarray[i];
+        };
+        avg /= myarray.length;
+        return avg;     //to call on the average number
+
     };
-    avg /= myarray.length;
-    return avg;
 
-};
-
-console.log("avg number = ",avgNumbers([1,2,3,4,5,6,7,8,9,10]));
-
-
+    console.log("avg number = ",avgNumbers([1,2,3,4,5,6,7,8,9,10]));
 
     //--------------------------------------------------------
-
     console.log("2. concat first and last name");   //the title of the 2nd exercise
 
 
 
 
-var fullName=function(firstName,LastName){    //function titled FullName, with two parameters
-    return firstName+ " "+LastName;           //returning it, allows me to use it outside the function
+    var fullName=function(firstName,LastName){    //function titled FullName, with two parameters
+        return firstName+ " "+LastName;           //returning it, allows me to use it outside the function
 
-};
+    };
 
-    console.log(fullName("Jeremy","Suika"));  //the display that prints to the console, a random name, my own;
-
-
+    console.log(fullName("James","Bond"));  //the display that prints to the console, the name
 
 
 
     //--------------------------------------------------------
     console.log("3. word count");
-    var ipsum = "this is a test text that is being used as input to a function to you by Jeremy"
+    var ipsum = "this is a test text that is being used as input to a function to you by Jeremy"   //varriable that holds the data to count for word count function
 
-    var wordCount=function(words){
+    var wordCount=function(words){      //words will be the parimeter that is called on for a few exercises.
         return words.length;
     };
 
-    console.log(wordCount(ipsum));
+    console.log(wordCount(ipsum));   //prints screen and shows the word count
 
     //--------------------------------------------------------
-    console.log("4. sentence char count");
+    console.log("4. sentence char count");   
 
-        var charCount=function(words){
-            return words.length;
-        };
+    var charCount=function(words){
+        return words.length;
+    };
 
     console.log(charCount(ipsum));
 
-    //--------------------  ------------------------------------
+    //--------------------------------------------------------
     console.log("5. how many vowels in a word");
 
-  var vowelsInWord =function(word){
-    var vowels =["a","e","i","o","u"];
+    var vowelsInWord =function(word){
+        var vowels =["a","e","i","o","u"];
 
-    count = 0;
+        count = 0;
 
-    this.word=word.toLowerCase().split('');
+        this.word=word.toLowerCase().split('');
 
-    for(var i= 0, j=this.word.length; i<j; i++) {
-        for(var ii= 0,jj=vowels.length; ii<jj; ii++){
-            if(this.word[i]===vowels[ii]){
-                count++;
+        for(var i= 0, j=this.word.length; i<j; i++) {
+            for(var ii= 0,jj=vowels.length; ii<jj; ii++){
+                if(this.word[i]===vowels[ii]){
+                    count++;
+                };
             };
         };
-    };
-    return count;
+        return count;
 
-  };
+    };
     console.log(vowelsInWord('JavaScript'));
 
     //--------------------------------------------------------
     console.log("6. find number and create an array of even or odd numbers");
 
-        //PUT FUNCTION HERE
+    var findNum = function (arr, even) {
+        var returnArr = [],
+            value;
 
-    console.log(findNum([31,22,4,67,83,6,5,4]));
-    console.log(findNum([31,22,4,67,83,6,5,4], false));
 
-})();          // })();
+    };
+        if(even===undefined || even){
+            for(var i= 0, i=arr.length; i<j; i++){
+                value=arr[1];
+                if(value>2 !==0){
+                    returnArr.push(value);
+                };
+            };
+        }else{
+            for(var i= 0, i=arr.length; i<j; i++){
+                value=arr[1];
+                if(value>2 !==0){
+                    returnArr.push(value);
+                };
+            };
+            return returnArr;
+        };
+      console.log(findNum([31,22,4,67,83,6,5,4]));
+      console.log(findNum([31,22,4,67,83,6,5,4], false));
+
+
+
+})();
