@@ -78,16 +78,16 @@
     var ipsum = "this is a test text that is being used as input to a function to you by Jeremy"   //varriable that holds the data to count for word count function
 
     var wordCount=function(words){      //words will be the parimeter that is called on for a few exercises.
-        return words.length;
+        return words.split(' ').length;
     };
 
     console.log(wordCount(ipsum));   //prints screen and shows the word count
 
     //--------------------------------------------------------
-    console.log("4. sentence char count");   
+    console.log("4. sentence char count");
 
-    var charCount=function(words){
-        return words.length;
+    var charCount=function(words){   //function to get amount of works, "words" will be called thought the function
+        return words.length;    //used to find the exact amount words
     };
 
     console.log(charCount(ipsum));
@@ -95,14 +95,14 @@
     //--------------------------------------------------------
     console.log("5. how many vowels in a word");
 
-    var vowelsInWord =function(word){
-        var vowels =["a","e","i","o","u"];
+    var vowelsInWord =function(word){      //
+        var vowels =["a","e","i","o","u"];   //this array, I chose what letters are vowels
 
         count = 0;
 
-        this.word=word.toLowerCase().split('');
+        this.word=word.toLowerCase().split('');  //makes sure the words lowercase so it allows them in the count.
 
-        for(var i= 0, j=this.word.length; i<j; i++) {
+        for(var i= 0, j=this.word.length; i<j; i++) {      //finding the vowels and calling them though the display
             for(var ii= 0,jj=vowels.length; ii<jj; ii++){
                 if(this.word[i]===vowels[ii]){
                     count++;
@@ -139,8 +139,8 @@
             };
             return returnArr;
         };
-      console.log(findNum([31,22,4,67,83,6,5,4]));
-      console.log(findNum([31,22,4,67,83,6,5,4], false));
+      //console.log(findNum([31,22,4,67,83,6,5,4]));      //count not solve this one, had major errows with placement of function blocks for first and last function
+      //console.log(findNum([31,22,4,67,83,6,5,4], false));
 
 
 
