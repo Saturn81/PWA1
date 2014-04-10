@@ -60,10 +60,10 @@
 
 var avgNumbers=function(myarray){
     var avg=0;
-    for(var i= 0, j=myarray,lenght; i<j; i++){
+    for(var i= 0, j=myarray.length; i<j; i++){
         avg += myarray[i];
     };
-    avg /= myarray,lenght;
+    avg /= myarray.length;
     return avg;
 
 };
@@ -92,11 +92,13 @@ var fullName=function(firstName,LastName){    //function titled FullName, with t
 
     //--------------------------------------------------------
     console.log("3. word count");
-    var ipsum = "this is test text that is being used as input to a function"
+    var ipsum = "this is a test text that is being used as input to a function to you by Jeremy"
 
-    var
+    var wordCount=function(words){
+        return words.split(' ').length;
+    };
 
-    console.log("HELLO THERE");
+    console.log(wordCount(ipsum));
 
     //--------------------------------------------------------
     console.log("4. sentence char count");
