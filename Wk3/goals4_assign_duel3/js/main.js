@@ -4,6 +4,50 @@
  */
 
 
+(function(){
+
+    console.log("  ----FIGHT----   ");
 
 
-console.log("Hello Ya'll");
+    var warrior1_txt =document.querySelector("#kratos").querySelector("p")
+    var warrior2_txt =document.querySelector("#kabal").querySelector("p")
+    var round_txt=document.querySelector("h4");
+    var button= document.getElementById("Fight_btn");
+
+
+    button.add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+})();
