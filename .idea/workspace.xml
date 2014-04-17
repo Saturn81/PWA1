@@ -25,28 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="14" selection-start="403" selection-end="403" vertical-scroll-proportion="0.7183099" vertical-offset="0" max-vertical-offset="870">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="23" selection-start="431" selection-end="431" vertical-scroll-proportion="-7.5" vertical-offset="195" max-vertical-offset="645">
+            <state line="5" column="35" selection-start="110" selection-end="110" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /js/main.js">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="2564" selection-end="2569" vertical-scroll-proportion="0.0" vertical-offset="862" max-vertical-offset="1290">
+            <state line="28" column="11" selection-start="602" selection-end="602" vertical-scroll-proportion="0.45070422" vertical-offset="260" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
@@ -130,6 +121,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wk3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals4_assign_duel3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wk3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals4_assign_duel3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wk3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -529,21 +574,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="2564" selection-end="2569" vertical-scroll-proportion="0.0" vertical-offset="862" max-vertical-offset="1290">
+        <state line="82" column="0" selection-start="2564" selection-end="2569" vertical-scroll-proportion="3.0647888" vertical-offset="82" max-vertical-offset="1290">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="431" selection-end="431" vertical-scroll-proportion="-7.5" vertical-offset="195" max-vertical-offset="645">
+        <state line="5" column="35" selection-start="110" selection-end="110" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="14" selection-start="403" selection-end="403" vertical-scroll-proportion="0.7183099" vertical-offset="0" max-vertical-offset="870">
+        <state line="28" column="11" selection-start="602" selection-end="602" vertical-scroll-proportion="0.45070422" vertical-offset="260" max-vertical-offset="1200">
           <folding />
         </state>
       </provider>
