@@ -4,42 +4,52 @@
  */
 
 
-(function fight(){
+(function (){
+
     console.log("  ----FIGHT----   ");
 
 
-    var warrior1_txt =document.querySelector("#kratos").querySelector("p")
-    var warrior2_txt =document.querySelector("#kabal").querySelector("p")
-    var round_txt=document.querySelector("h4");
+    var warrior1_txt =document.getElementById("kabal");
+    var warrior2_txt =document.getElementById("kratos");
+    var round_txt=document.getElementById("round");
     var button= document.getElementById("fight_btn");
 
+    console.log()
 
-    // button.addEventListener("Click",Fight, false);
+    button.addEventListener("click",fight, false);
 
     var warriors = [
         {
-            name:"Spiderman",damage:25,health:100
+            name:"SpiderMan",damage:22,health:100
 
         },
         {
-            name:"Bane",damage:20,health:100
+            name:"Bane",damage:22,health:100
 
 
         }];
+
     var round=1;
 
 
-    round_txt.innerHTML="Click Here to Start Fight";
+    round_txt.innerHTML="Click Fight to Start";
     warrior1_txt.innerHTML=warriors[0].name + ":" + warriors[0].health;
-    warrior1_txt.innerHTML=warriors[1].name + ":" + warriors[1].health;
+    warrior2_txt.innerHTML=warriors[1].name + ":" + warriors[1].health;
 
-    function fightOn(){
+
+    function oneClick(){
+
+        fight()
+   }
+
+
+    function fight(){
 
         warrior1_txt.innerHTML=warriors[0].name + ":" + warriors[0].health;
         warrior2_txt.innerHTML=warriors[1].name + ":" + warriors[1].health;
 
-        var f1=Math.floor(Math.random() * warriors[0].damage+warriors[0].damage *.50);
-        var f2=Math.floor(Math.random() * warriors[1].damage+warriors[1].damage *.50);
+        var f1=Math.floor(Math.random() * warriors[0].damage+warriors[0].damage *.5);
+        var f2=Math.floor(Math.random() * warriors[1].damage+warriors[1].damage *.5);
 
 
         warriors[0].health -= f1;
@@ -50,11 +60,11 @@
 
 
 
-        var end =whoWon();
-        console.log(end);
+        var result =winnerCheck();
+        console.log(result);
 
 
-        round_txt.innerHTML= "Round" + round + "Complete";
+        round_txt.innerHTML= "ROUND" + round + " COMPLETE";
         round++;
 
 
@@ -69,8 +79,8 @@
             warrior2_txt.innerHTML="";
 
 
-            buton.removeEventListener("click", fight, false)
-
+           // buton.removeEventListener("DONE")
+             button.removeEventListener("click",fight,false);
 
             document.querySelector('.buttonblue').innerHTML="DONE!";
 
@@ -83,18 +93,19 @@
 
 
     function winnerCheck(){
-        var result = "No Winner";
+        var result = "no winner";
         if (warriors[0].health<=0 && warriors[1].health <=0)
         {
             result="You Both Are Dead";
         } else if(warriors[0].health <= 0){
-            result=warrior[1].name + " Wins!"
+            result=warriors[1].name + " Wins Fight!"
 
         } else if(warriors[1].health <= 0)
-        {    result=warrior[0].name + " Wins!"
+        {
+            result=warriors[0].name + " Wins Fight!"
 
         }
-            return result;
+        return result;
 
 
     }
