@@ -15,7 +15,7 @@
     var button= document.getElementById("fight_btn");
 
 
-    button.addEventListener("Click",Fight, false);
+   // button.addEventListener("Click",Fight, false);
 
     var warriors = [
         {
@@ -37,10 +37,12 @@
 
 
 
+    var f1=Math.floor(Math.random() * warriors[0].damage+warriors[0].damage *.50);
+    var f2=Math.floor(Math.random() * warriors[1].damage+warriors[1].damage *.50);
 
 
-
-
+    warriors[0].health -= f1;
+    warriors[1].health -= f2;
 
 
 
