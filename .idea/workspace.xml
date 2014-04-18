@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a00b7fa3-855d-4eed-99d0-ab6c85adf78f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wk1/goal1_assign_duel1/index.html" afterPath="$PROJECT_DIR$/Wk1/goal1_assign_duel1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wk1/goal2_assign_duel2 /index.html" afterPath="$PROJECT_DIR$/Wk1/goal2_assign_duel2 /index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wk3/goals4_assign_duel3/index.html" afterPath="$PROJECT_DIR$/Wk3/goals4_assign_duel3/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wk3/goals4_assign_duel3/js/main.js" afterPath="$PROJECT_DIR$/Wk3/goals4_assign_duel3/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wk1/goal1_assign_duel1/css/style.css" afterPath="$PROJECT_DIR$/Wk1/goal1_assign_duel1/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wk3/goals4_assign_duel3/css/style.css" afterPath="$PROJECT_DIR$/Wk3/goals4_assign_duel3/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,16 +34,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="159" selection-end="159" vertical-scroll-proportion="6.8333335" vertical-offset="314" max-vertical-offset="645">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="37" selection-start="204" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1290">
+            <state line="24" column="22" selection-start="369" selection-end="369" vertical-scroll-proportion="-4.7083335" vertical-offset="247" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -47,7 +43,16 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="41" selection-start="699" selection-end="699" vertical-scroll-proportion="0.8873239" vertical-offset="210" max-vertical-offset="1950">
+            <state line="97" column="154" selection-start="3291" selection-end="3291" vertical-scroll-proportion="-0.023738872" vertical-offset="1463" max-vertical-offset="1995">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="17" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="568" max-vertical-offset="1665">
               <folding />
             </state>
           </provider>
@@ -70,25 +75,27 @@
         <option value="$PROJECT_DIR$/goal1_basics/js/main.js" />
         <option value="$PROJECT_DIR$/Wk1/goal1_basics/index.html" />
         <option value="$PROJECT_DIR$/Wk1/goal1_basics/js/main.js" />
-        <option value="$PROJECT_DIR$/Wk1/goal1_assign_duel1/index.html" />
         <option value="$PROJECT_DIR$/Wk1/goal1_assign_duel1/js/main.js" />
-        <option value="$PROJECT_DIR$/Wk1/goal2_assign_duel2 /index.html" />
         <option value="$PROJECT_DIR$/Wk1/goal2_assign_duel2 /js/main.js" />
         <option value="$PROJECT_DIR$/Wk2/goal3_bug_scope/js/main.js" />
         <option value="$PROJECT_DIR$/Wk2/goal4_objects_DOM_events/js/main.js" />
         <option value="$PROJECT_DIR$/Wk1/goal2_assign_JSpractice2/js/main.js" />
         <option value="$PROJECT_DIR$/Wk1/goal2_assign_JSpractice/js/main.js" />
         <option value="$PROJECT_DIR$/Wk3/goal5_RegEx_Math_Date/js/script.js" />
+        <option value="$PROJECT_DIR$/Wk1/goal1_assign_duel1/css/style.css" />
+        <option value="$PROJECT_DIR$/Wk1/goal1_assign_duel1/index.html" />
+        <option value="$PROJECT_DIR$/Wk1/goal2_assign_duel2 /index.html" />
+        <option value="$PROJECT_DIR$/Wk3/goals4_assign_duel3/css/style.css" />
         <option value="$PROJECT_DIR$/Wk3/goals4_assign_duel3/index.html" />
         <option value="$PROJECT_DIR$/Wk3/goals4_assign_duel3/js/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-74" />
-    <option name="y" value="541" />
+    <option name="x" value="85" />
+    <option name="y" value="530" />
     <option name="width" value="1883" />
-    <option name="height" value="473" />
+    <option name="height" value="455" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -192,7 +199,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,7 +289,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,16 +301,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Wk1/goal2_assign_duel2 /js" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Wk3/goals4_assign_duel3/images" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -314,15 +319,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -344,7 +357,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-74" y="541" width="1883" height="473" extended-state="0" />
+    <frame x="85" y="530" width="1883" height="455" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -359,11 +372,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -374,15 +387,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.044880785" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.044880785" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21589689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -404,36 +417,45 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Wk3/goal5_RegEx_Math_Date/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="499" column="0" selection-start="14837" selection-end="14837" vertical-scroll-proportion="0.0" vertical-offset="7472" max-vertical-offset="7695">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+        <state line="17" column="21" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wk3/goal5_RegEx_Math_Date/index.html">
+    <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="765">
+        <state line="81" column="18" selection-start="1822" selection-end="1822" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="2010">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="5" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk3/goal5_RegEx_Math_Date/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="361" column="59" selection-start="11096" selection-end="11096" vertical-scroll-proportion="0.0" vertical-offset="5318" max-vertical-offset="6900">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="499" column="0" selection-start="14837" selection-end="14837" vertical-scroll-proportion="0.0" vertical-offset="7472" max-vertical-offset="7695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk3/goal5_RegEx_Math_Date/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="21" column="20" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk3/goal5_RegEx_Math_Date/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="361" column="59" selection-start="11096" selection-end="11096" vertical-scroll-proportion="0.0" vertical-offset="5318" max-vertical-offset="6900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk3/goal5_RegEx_Math_Date/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="7" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_JSpractice/js/main.js">
@@ -511,16 +533,6 @@
         <state line="175" column="0" selection-start="3579" selection-end="3579" vertical-scroll-proportion="0.44444445" vertical-offset="2469" max-vertical-offset="9015" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wk1/goal1_assign_duel1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wk1/goal1_assign_duel1/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="23" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1350" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /images/fight_bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -573,23 +585,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk3/goal5_RegEx_Math_Date/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="499" column="0" selection-start="14837" selection-end="14837" vertical-scroll-proportion="0.48019803" vertical-offset="7291" max-vertical-offset="7695">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="499" column="0" selection-start="14837" selection-end="14837" vertical-scroll-proportion="0.48019803" vertical-offset="7291" max-vertical-offset="7695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk3/goal5_RegEx_Math_Date/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="21" column="20" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="765" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/images/fight_bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/Wk1/goal1_assign_duel1/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="23" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1290" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/goal1_assign_duel1/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/images/grey_wash_wall.png">
@@ -597,30 +610,79 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /index.html">
+    <entry file="file://$PROJECT_DIR$/Wk1/goal1_assign_duel1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="500" selection-end="559" vertical-scroll-proportion="0.7715582" vertical-offset="0" max-vertical-offset="690">
+        <state line="18" column="6" selection-start="199" selection-end="207" vertical-scroll-proportion="0.078947365" vertical-offset="234" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /js/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /js/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /js/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /js/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /js/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /js/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2085" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="204" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1290">
+        <state line="34" column="0" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.72025055" vertical-offset="105" max-vertical-offset="1290" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2 /css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="25" selection-start="1385" selection-end="1385" vertical-scroll-proportion="2.2546973" vertical-offset="0" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="17" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="568" max-vertical-offset="1665">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="159" selection-end="159" vertical-scroll-proportion="6.8333335" vertical-offset="314" max-vertical-offset="645">
+        <state line="24" column="22" selection-start="369" selection-end="369" vertical-scroll-proportion="-4.7083335" vertical-offset="247" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk3/goals4_assign_duel3/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="41" selection-start="699" selection-end="699" vertical-scroll-proportion="0.8873239" vertical-offset="210" max-vertical-offset="1950">
+        <state line="97" column="154" selection-start="3291" selection-end="3291" vertical-scroll-proportion="-0.023738872" vertical-offset="1463" max-vertical-offset="1995">
           <folding />
         </state>
       </provider>
